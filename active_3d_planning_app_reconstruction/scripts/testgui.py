@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from Tkinter import *
 import rospy
 from std_srvs.srv import Empty
