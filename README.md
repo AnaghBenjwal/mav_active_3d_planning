@@ -15,6 +15,15 @@ roslaunch active_3d_planning_app_reconstruction test.launch
 roslaunch active_3d_planning_app_reconstruction gazebo.launch
 ```
 
+```shell script
+# This will start the controller
+rosrun copter Controller
+```
+
+```shell script
+# This will start the exploration
+rosservice call /planner/planner_node/toggle_running "data: true"
+```
 
 We provide a modular framework for creating, evaluating and employing primarily sampling based, receding horizon algorithms that optimize a gain while minimizing a cost.
 
