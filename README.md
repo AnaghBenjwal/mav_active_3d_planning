@@ -2,7 +2,7 @@
 # mav\_active\_3d\_planning
 **mav\_active\_3d\_planning** is a modular framework for online informative path planner (IPP) design. 
 
-To run it with PX4 and Gazebo,
+**To run it with PX4 and Gazebo**
 1. source PX4 Autopilot
 Run the following launch Files after sourcing the repository
 ```shell script
